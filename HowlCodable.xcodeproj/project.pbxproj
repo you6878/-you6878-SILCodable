@@ -14,6 +14,7 @@
 		0231B38520B58FB0000E5A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0231B38320B58FB0000E5A63 /* LaunchScreen.storyboard */; };
 		0231B39020B58FB1000E5A63 /* HowlCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231B38F20B58FB1000E5A63 /* HowlCodableTests.swift */; };
 		0231B39B20B58FB1000E5A63 /* HowlCodableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231B39A20B58FB1000E5A63 /* HowlCodableUITests.swift */; };
+		0231B3AD20B5913B000E5A63 /* PhotoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231B3AC20B5913B000E5A63 /* PhotoDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0231B39620B58FB1000E5A63 /* HowlCodableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlCodableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0231B39A20B58FB1000E5A63 /* HowlCodableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlCodableUITests.swift; sourceTree = "<group>"; };
 		0231B39C20B58FB1000E5A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0231B3AC20B5913B000E5A63 /* PhotoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0231B38120B58FB0000E5A63 /* Assets.xcassets */,
 				0231B38320B58FB0000E5A63 /* LaunchScreen.storyboard */,
 				0231B38620B58FB0000E5A63 /* Info.plist */,
+				0231B3AC20B5913B000E5A63 /* PhotoDTO.swift */,
 			);
 			path = HowlCodable;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0231B3AD20B5913B000E5A63 /* PhotoDTO.swift in Sources */,
 				0231B37D20B58FAF000E5A63 /* ViewController.swift in Sources */,
 				0231B37B20B58FAF000E5A63 /* AppDelegate.swift in Sources */,
 			);
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YS9FD49N82;
 				INFOPLIST_FILE = HowlCodable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YS9FD49N82;
 				INFOPLIST_FILE = HowlCodable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
